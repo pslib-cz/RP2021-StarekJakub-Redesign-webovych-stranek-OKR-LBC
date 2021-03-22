@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">    
+    <title>Rozhodčí Liberec | Dokumenty</title>
+
+    <link rel="shortcut icon" type="image/svg" href="./media/logo_lbc.svg">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+<body>
+    <header>
+        <div class="logo_rlh">
+            <a href="./index.html"><img src="./media/logo_ref.png" alt="ROZHODČÍ LIBEREC" class="logo"></a>
+        </div>
+        <div class="hamburger">
+            <a href="#" onclick="menuOnOff()"><img src="./media/hamburger.svg" alt="menu button"></a>
+        </div>
+        <div class="topnav hidden" id="myTopnav">
+            <ul>
+                <li><a href="./index.html">O nás</a></li>
+                <li><a href="https://hokejovyzapis.cz/seznam-zapasu" target="_blank">Zápasy</a></li> 
+                <li><a href="./team.html">Náš tým</a></li>  
+                <li><a href="./documents.html">Dokumenty</a></li>   
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <h1>Dokumenty</h1>
+            <p>V této sekci naleznete veškeré důležité stanovy a řády vydané Českým hokejem či OKR LH LBC. Tyto jsou vždy vyvěšeny v aktuální platné verzi. Příslušný dokument se Vám po kliknutí na odkaz otevře v nové kartě prohlížeče.</p>
+        </div>
+        <div class="info">
+            <ul>
+                <li><a href="./documents/cslh-pravidla2018-22.pdf" target="_blank">Pravidla Ledního hokeje</a></li>
+                <li><a href="./documents/Licence_rozhodcich.pdf" target="_blank">Licence rozhodčích</a></li>
+                <li><a href="./documents/pokynypomocnirozhodci-2020.pdf" target="_blank">Pokyny pro pomocné rozhodčí</a></li>
+                <li><a href="./documents/Povinnosti_a_odmenovani_rozhodcich.pdf" target="_blank">Povinnosti a odměňování rozhodčích</a></li>
+                <li><a href="./documents/Povinnosti_poradajiciho_klubu_pri_zajisteni_poradatelske_sluzby.pdf" target="_blank">Povinnosti pořádajícího klubu při zajištění zdravotnické služby</a></li>
+                <li><a href="./documents/Pravidla_ledniho_hokeje_pro_hru_telem.pdf" target="_blank">Dodatek k pravidlům pro hru tělem v mládežnických kategoriích</a></li>
+                <li><a href="./documents/Pravidla_minihokeje.pdf" target="_blank">Pravidla minihokeje</a></li>
+                <li><a href="./documents/Trenerske_licence.pdf" target="_blank">Trenérské licence</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <h2>Navigace</h2>
+                <ul>
+                    <li><a href="./index.html">O nás</a></li>
+                    <li><a href="https://hokejovyzapis.cz/seznam-zapasu" target="_blank">Zápasy</a></li>
+                    <li><a href="./team.html">Náš tým</a></li>
+                    <li><a href="./documents.html">Dokumenty</a></li>
+                    <li><a href="./contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer_top">
+                <h2>Kontakt</h2>
+                <address>
+                    <p>Předseda OKR LBC</p>
+                    <p>člen VV</p>
+                    <p>Lucie Svobodová</p>
+                    <p><a href="tel:+420602658338">+420 602 658 338</a></p>
+                    <p><a href="mailto://lucafreedomsvobodova@gmail.com">lucafreedomsvobodova@gmail.com</a></p>
+                </address>
+            </div>
+            <div class="footer_soc">
+                <h2>#Socky</h2>
+                <div class="fb">
+                    <a href="https://www.facebook.com/Rozhodciliberec" target="_blank">facebook</a>
+                </div>
+                <div class="ig">
+                    <a href="https://www.instagram.com/rozhodciliberec/" target="_blank">instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let menuOnOff = function() {
+            document.getElementById("myTopnav").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+/*výchozí barvy*/
+:root{
+    --white: #ffffff;
+    --red: #ff0101;
+    --blue: #001D60;
+    --text: #000000;
+    --nav-bg: #FFFFFF;
+    --bg: #F4F5F9;
+    --shadow: #e5e4e4;
+}
+
+/*navigace a header*/
+header{
+    background-color: var(--nav-bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%);
+}
+/*logo rozhodčí*/
+.logo_rlh{
+    padding: auto;
+}
+.logo_rlh a{
+    display: block;
+    padding: 0.5rem;
+}
+/*horní navigace*/
+.topnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topnav ul{
+    padding: 0;
+    margin: 0 0.5rem 0 0;
+    list-style: none;
+}
+
+.topnav ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.topnav ul li a{
+    display: block;
+    padding: 1rem;
+}
+.topnav ul li a:hover{
+    color: var(--blue);
+}
+
+/* hide/show hamburger */
+.hidden {
+    display: none;
+}
+/*vnitřní obsah stránky*/
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: var(--bg);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin-top: 71px;
+    margin-bottom: auto;
+}
+
+main h1{
+    position: absolute;
+    left: -9999px;
+}
+/*blok aktuálních informací*/
+.info.actuall{
+    background-color: var(--red);
+    border-radius: 1em;
+}
+
+.info.actuall h2{
+    padding: 1rem;
+    margin: 0;
+    color: var(--white);
+}
+
+
+.info.actuall p{
+    padding: 1rem;
+    margin: 0;
+    color: var(--white);
+    padding-top: 0;
+}
+/*textový blok*/
+.info{
+    background-color: var(--white);
+    margin: 1rem auto;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px 3px var(--shadow);
+    border-radius: 1em;
+}
+
+.info h1{
+    padding: 1rem;
+    margin: 0;
+    position: initial;
+}
+
+.info h2{
+    padding: 1rem;
+    margin: 0;
+}
+
+
+.info p{
+    padding: 1rem;
+    margin: 0;
+    padding-top: 0;
+}
+
+.info ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.info ul li{
+    padding: 0;
+    width: fit-content;
+}
+
+.info ul li a{
+    display: block;
+    padding: 1rem;
+}
+
+.info ul li a:hover{
+    color: var(--blue);
+    text-decoration: underline var(--blue);
+}
+/*logo partner*/
+.logo_partner{
+    padding: 1rem;
+    margin: auto;
+    width: 260px;
+}
+
+.logo_partner a{
+    display: block;
+}
+
+.logo_partner a img{
+    height: 100%;
+    width: 100%;
+}
+/*box kontaktu*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    margin: 1rem auto;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px 3px var(--shadow);
+    border-radius: 1em;
+}
+
+.profil_photo{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem auto;
+    border: solid 3px var(--shadow);
+}
+
+.profil_photo img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.personal_1{
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+.personal_1 p{
+    margin: 0.5rem auto;
+}
+
+.personal_1 p a{
+    display: block;
+}
+
+.personal_1 p a:hover{
+    color: var(--blue);
+    text-decoration: underline var(--blue);
+}
+
+/*id karta členů*/
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    margin: 1rem auto;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px 3px var(--shadow);
+    border-radius: 1em;
+}
+
+.profil_card{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem auto;
+    border: 3px solid var(--shadow);
+}
+
+.profil_card img{
+    width: 100%;
+    height: auto;
+}
+
+.card_personal_1{
+    margin: 0 auto;
+    text-align: center;
+    min-width: 15em;
+}
+.card_personal_2{
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    min-width: 15em;
+}
+
+.card_personal_1 p, .card_personal_2 p{
+    margin: 0.5rem auto;
+}
+
+.card_personal_2 p a{
+    display: block;
+}
+
+.card_personal_2 p a:hover{
+    color: var(--blue);
+    text-decoration: underline var(--blue);
+}
+
+/*footer odkazy a kontakty*/
+footer{
+    background-color: #d3002c;
+}
+
+.footer_wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+}
+/**/
+.footer_top h2, .footer_top h3{
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer_top a{
+    display: block;
+    padding: 0;
+}
+
+.footer_top {
+    color: white;
+}
+
+.footer_top ul{
+    padding: 0 1rem;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer_top ul li{
+    padding: 0;
+}
+
+.footer_top ul li a{
+    padding: 0.2rem 0;
+    color: white;
+}
+
+.footer_top ul li a:hover{
+    color: var(--blue);
+}
+
+.footer_top address{
+    padding: 0 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_top address p{
+    margin: 0;
+    padding: 0.2rem 0;
+}
+
+.footer_top address p a{
+    color: white;
+}
+
+.footer_top address p a:hover{
+    color:var(--blue);
+    text-decoration: underline var(--blue);
+}
+/**/
+.footer_soc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin-top: .5rem;
+    color: white;
+}
+
+.footer_soc h2, .footer_soc h3{
+    margin: 0;
+    padding: 1rem;
+    text-align: right;
+    display: none;
+}
+/*footer ikony*/
+.fb{
+    padding: 1rem;
+    text-align: right;
+}
+
+.fb a{
+    display: inline-block;
+    background: url(../media/icon_fb.svg) right center no-repeat;
+    padding-right: 28px;
+    line-height: 20px;
+    color: white;
+}
+
+.fb a:hover{
+    background-image: url(../media/icon_fb_hover.svg);
+}
+/**/
+.ig{
+    padding: 1rem;
+    text-align: right;
+}
+
+.ig a{
+    display: inline-block;
+    background: url(../media/icon_ig.svg) right center no-repeat;
+    padding-right: 28px;
+    line-height: 20px;
+    color: white;
+}
+
+.ig a:hover{
+    background-image: url(../media/icon_ig_hover.svg);
+}

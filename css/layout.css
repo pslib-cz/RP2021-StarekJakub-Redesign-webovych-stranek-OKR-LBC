@@ -1,0 +1,99 @@
+/*nastavení responzivity*/
+@media only screen and (min-width: 455px){
+    .footer_wrap{
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 500px){
+    .contact{
+        flex-direction: row;
+        justify-content: start;
+    }
+    .profil_photo{
+        margin: 1rem;
+    }
+    .personal_1{
+        margin: auto 1rem;
+        text-align: left;
+    }    
+}
+
+@media only screen and (min-width: 600px) {
+    .footer_wrap{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer_soc{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+        margin: 0;
+    }
+    .footer_soc h2, .footer_soc h3{
+        display: block;
+    }
+
+    .footer_top h2, .footer_top h3{
+        display: block;
+        text-align: left;
+    }
+    .footer_top address, .footer_top ul{
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 760px){
+    .card{
+        flex-direction: row;
+        justify-content: start;
+    }
+    .profil_card{
+        margin: 1rem;
+    }
+    .card_personal_1, .card_personal_2{
+        margin: auto 1rem;
+        text-align: left;
+    }
+  }
+
+@media only screen and (min-width: 761px) {
+    .hidden {
+        display: flex;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .topnav{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .topnav ul{
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+    .topnav ul li{
+        display: block;
+    }
+    header{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .hamburger{
+        margin-left: auto;
+    }
+    .hamburger a{
+        display: block;
+        height: 18px;
+        padding: 26.5px 1rem;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .info, .contact, .card{
+        border-radius: 0px;
+    }
+}

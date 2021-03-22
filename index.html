@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">    
+    <title>Rozhodčí Liberec</title>
+
+    <link rel="shortcut icon" type="image/svg" href="./media/logo_lbc.svg">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+<body>
+    <header>
+        <div class="logo_rlh">
+            <a href="#"><img src="./media/logo_ref.png" alt="ROZHODČÍ LIBEREC" class="logo"></a>
+        </div>
+        <div class="hamburger">
+            <a href="#" onclick="menuOnOff()"><img src="./media/hamburger.svg" alt="menu button"></a>
+        </div>
+        <div class="topnav hidden" id="myTopnav">
+            <ul>
+                <li><a href="./index.html">O nás</a></li>
+                <li><a href="https://hokejovyzapis.cz/seznam-zapasu" target="_blank">Zápasy</a></li>
+                <li><a href="./team.html">Náš tým</a></li>
+                <li><a href="./documents.html">Dokumenty</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Rozhodčí Liberec</h1>
+        <div class="info actuall">
+            <h2>Aktuálně</h2>
+            <p>V současné době je veškerá činnost liberecké okresní komise rozhodčích pozastavena z důvodu vládních opatření v boji s pandemií virus SARS-CoV-2. Vyjímkou je pouze Tipsport Extraliga ledního hokeje.</p>
+        </div>
+        <div class="info">
+            <h2>O nás</h2>
+            <p>Vítejte na oficiálních webových stránkách liberecké okresní komise rozhodčích ledního hokeje.</p>
+            <p>Naleznete zde informace o aktuálním dění v komisi, kontakty na jednotlivé členy a mimo to i důležité odkazy a dokumenty.</p>
+        </div>
+        <div class="info">
+            <h2>Hlavní partner</h2>
+            <div class="logo_partner">
+                <a href="http://www.ouzo-transport.cz/" target="_blank"><img src="./media/logo_ouzo.jpg" alt="OUZO TRANSPORT"></a>
+            </div>
+        </div>
+        <div class="info">
+            <h2>Důležité odkazy</h2>
+            <ul>
+                <li><a href="https://www.ceskyhokej.cz/" target="_blank">Český hokej</a></li>
+                <li><a href="https://maly.hokejovyzapis.cz/#!/" target="_blank">Malý hokejový zápis</a></li>
+                <li><a href="https://rozhodci.ceskyhokej.cz/session/sign/in?backlink=o8i7r" target="_blank">Profil rozhodčí</a></li>
+                <li><a href="http://liberecky.ceskyhokej.cz/komise-rozhodcich/s58" target="_blank">Krajská komise rozhodčích</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <h3>Navigace</h3>
+                <ul>
+                    <li><a href="./index.html">O nás</a></li>
+                    <li><a href="https://hokejovyzapis.cz/seznam-zapasu" target="_blank">Zápasy</a></li>
+                    <li><a href="./team.html">Náš tým</a></li>
+                    <li><a href="./documents.html">Dokumenty</a></li>
+                    <li><a href="./contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer_top">
+                <h3>Kontakt</h3>
+                <address>
+                    <p>Předseda OKR LBC</p>
+                    <p>člen VV</p>
+                    <p>Lucie Svobodová</p>
+                    <p><a href="tel:+420602658338">+420 602 658 338</a></p>
+                    <p><a href="mailto://lucafreedomsvobodova@gmail.com">lucafreedomsvobodova@gmail.com</a></p>
+                </address>
+            </div>
+            <div class="footer_soc">
+                <h3>#Socky</h3>
+                <div class="fb">
+                    <a href="https://www.facebook.com/Rozhodciliberec" target="_blank">facebook</a>
+                </div>
+                <div class="ig">
+                    <a href="https://www.instagram.com/rozhodciliberec/" target="_blank">instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let menuOnOff = function() {
+            document.getElementById("myTopnav").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
