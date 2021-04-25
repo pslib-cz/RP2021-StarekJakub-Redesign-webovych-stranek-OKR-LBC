@@ -1,8 +1,9 @@
 /*výchozí barvy*/
 :root{
     --white: #ffffff;
-    --red: #ff0101;
-    --blue: #001D60;
+    --red: #d3002c;
+    --warning: #ff0101;
+    --blue: #001d60;
     --text: #000000;
     --nav-bg: #FFFFFF;
     --bg: #F4F5F9;
@@ -38,7 +39,7 @@ header{
 }
 .topnav ul{
     padding: 0;
-    margin: 0 0.5rem 0 0;
+    margin: 0 1rem 0 0;
     list-style: none;
 }
 
@@ -82,22 +83,16 @@ main h1{
 }
 /*blok aktuálních informací*/
 .info.actuall{
-    background-color: var(--red);
-    border-radius: 1em;
+    background-color: var(--warning);
 }
 
 .info.actuall h2{
-    padding: 1rem;
-    margin: 0;
     color: var(--white);
 }
 
 
 .info.actuall p{
-    padding: 1rem;
-    margin: 0;
     color: var(--white);
-    padding-top: 0;
 }
 /*textový blok*/
 .info{
@@ -258,7 +253,7 @@ main h1{
 
 /*footer odkazy a kontakty*/
 footer{
-    background-color: #d3002c;
+    background-color: var(--red);
 }
 
 .footer_wrap{
@@ -283,7 +278,7 @@ footer{
 }
 
 .footer_top {
-    color: white;
+    color: var(--white);
 }
 
 .footer_top ul{
@@ -299,7 +294,7 @@ footer{
 
 .footer_top ul li a{
     padding: 0.2rem 0;
-    color: white;
+    color: var(--white);
 }
 
 .footer_top ul li a:hover{
@@ -318,7 +313,7 @@ footer{
 }
 
 .footer_top address p a{
-    color: white;
+    color: var(--white);
 }
 
 .footer_top address p a:hover{
@@ -332,7 +327,7 @@ footer{
     justify-content: center;
     width: 100vw;
     margin-top: .5rem;
-    color: white;
+    color: var(--white);
 }
 
 .footer_soc h2, .footer_soc h3{
@@ -352,12 +347,9 @@ footer{
     background: url(../media/icon_fb.svg) right center no-repeat;
     padding-right: 28px;
     line-height: 20px;
-    color: white;
+    color: var(--white);
 }
 
-.fb a:hover{
-    background-image: url(../media/icon_fb_hover.svg);
-}
 /**/
 .ig{
     padding: 1rem;
@@ -369,9 +361,5 @@ footer{
     background: url(../media/icon_ig.svg) right center no-repeat;
     padding-right: 28px;
     line-height: 20px;
-    color: white;
-}
-
-.ig a:hover{
-    background-image: url(../media/icon_ig_hover.svg);
+    color: var(--white);
 }

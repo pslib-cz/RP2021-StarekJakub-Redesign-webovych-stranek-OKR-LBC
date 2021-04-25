@@ -15,7 +15,7 @@
     .personal_1{
         margin: auto 1rem;
         text-align: left;
-    }    
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -88,7 +88,7 @@
     .hamburger a{
         display: block;
         height: 18px;
-        padding: 26.5px 1rem;
+        padding: 25.5px 1rem;
         text-align: center;
     }
 }
