@@ -81,9 +81,6 @@ main h1{
     position: absolute;
     left: -9999px;
 }
-a{
-    width: fit-content;
-}
 /*blok aktuálních informací*/
 .info.actuall{
     background-color: var(--warning);
@@ -313,6 +310,7 @@ footer{
 .footer_top address p{
     margin: 0;
     padding: 0.2rem 0;
+    
 }
 
 .footer_top address p a{
