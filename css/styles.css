@@ -83,7 +83,7 @@ main h1{
 }
 /*blok aktuálních informací*/
 .info.actuall{
-    background-color: var(--warning);
+    background-color: var(--red);
 }
 
 .info.actuall h2{
