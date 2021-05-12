@@ -16,6 +16,9 @@
         margin: auto 1rem;
         text-align: left;
     }
+    .personal_1 p a{
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -40,6 +43,9 @@
     .footer_top address, .footer_top ul{
         text-align: left;
     }
+    .footer_top a{
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 760px){
@@ -53,6 +59,9 @@
     .card_personal_1, .card_personal_2{
         margin: auto 1rem;
         text-align: left;
+    }
+    .card_personal_1 p a, .card_personal_2 p a{
+        margin: 0;
     }
   }
 
