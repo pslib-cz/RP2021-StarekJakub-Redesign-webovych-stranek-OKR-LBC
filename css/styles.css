@@ -26,6 +26,7 @@ header{
 /*logo rozhodčí*/
 .logo_rlh{
     padding: auto;
+    margin-left: 1rem;
 }
 .logo_rlh a{
     display: block;

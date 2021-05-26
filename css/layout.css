@@ -105,4 +105,7 @@
     .info, .contact, .card{
         border-radius: 0px;
     }
+    .logo_rlh{
+        margin: 0;
+    }
 }
