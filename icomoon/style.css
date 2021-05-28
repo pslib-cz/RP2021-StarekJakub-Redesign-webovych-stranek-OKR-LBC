@@ -26,6 +26,7 @@
 
 .icon-hamburger:before {
   content: "\e900";
+  font-size: 18px;
 }
 .icon-icon_fb:before {
   content: "\e901";

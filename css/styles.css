@@ -2,7 +2,6 @@
 :root{
     --white: #ffffff;
     --red: #d3002c;
-    --warning: #ff0101;
     --blue: #001d60;
     --text: #000000;
     --nav-bg: #ffffff;
@@ -25,12 +24,21 @@ header{
 }
 /*logo rozhodčí*/
 .logo_rlh{
-    padding: auto;
     margin-left: 1rem;
 }
-.logo_rlh a{
-    display: block;
-    padding: 0.5rem;
+
+.logo{
+    width: 60px;
+}
+.komise{
+    display: flex;
+}
+.RH{
+    color: var(--red);
+}
+
+.LBC{
+    color: var(--blue);
 }
 /*horní navigace*/
 .topnav{
@@ -201,7 +209,7 @@ main h1{
 
 .personal_1 p a:hover{
     color: var(--blue);
-    text-decoration: underline var(--blue);
+    font-weight: bold;
 }
 
 /*id karta členů*/
