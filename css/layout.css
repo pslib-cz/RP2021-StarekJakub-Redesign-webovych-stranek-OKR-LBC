@@ -101,7 +101,7 @@
         text-align: center;
     }
 }
-@media only screen and (max-width: 1280px){
+@media only screen and (max-width: 960px){
     .info, .contact, .card{
         border-radius: 0px;
     }

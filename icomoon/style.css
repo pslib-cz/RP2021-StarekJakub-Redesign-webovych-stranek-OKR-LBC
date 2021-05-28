@@ -41,8 +41,10 @@
 }
 .icon-icon_phone_black:before {
   content: "\e903";
+  margin-right: 5px;
 }
 .icon-icon_phone_white:before {
   content: "\e904";
+  margin-right: 5px;
   color: #fff;
 }

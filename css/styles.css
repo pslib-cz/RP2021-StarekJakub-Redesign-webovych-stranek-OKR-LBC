@@ -99,7 +99,7 @@ main h1{
 .info{
     background-color: var(--white);
     margin: 1rem auto;
-    max-width: 1280px;
+    max-width: 960px;
     box-shadow: 3px 3px 3px 3px var(--shadow);
     border-radius: 1em;
 }
@@ -164,7 +164,7 @@ main h1{
     justify-content: center;
     background-color: var(--white);
     margin: 1rem auto;
-    max-width: 1280px;
+    max-width: 960px;
     box-shadow: 3px 3px 3px 3px var(--shadow);
     border-radius: 1em;
 }
@@ -211,7 +211,7 @@ main h1{
     justify-content: center;
     background-color: var(--white);
     margin: 1rem auto;
-    max-width: 1280px;
+    max-width: 960px;
     box-shadow: 3px 3px 3px 3px var(--shadow);
     border-radius: 1em;
 }
@@ -234,12 +234,12 @@ main h1{
 .card_personal_1{
     margin: 0 auto;
     text-align: center;
-    min-width: 15em;
+    width: 15em;
 }
 .card_personal_2{
     margin: 0 auto 1rem auto;
     text-align: center;
-    min-width: 15em;
+    width: 23em;
 }
 
 .card_personal_1 p, .card_personal_2 p{
@@ -254,7 +254,7 @@ main h1{
 
 .card_personal_2 p a:hover{
     color: var(--blue);
-    text-decoration: underline var(--blue);
+    font-weight: bold;
 }
 
 /*footer odkazy a kontakty*/
@@ -318,7 +318,6 @@ footer{
 .footer_top address p{
     margin: 0;
     padding: 0.2rem 0;
-    
 }
 
 .footer_top address p a{
@@ -327,7 +326,7 @@ footer{
 
 .footer_top address p a:hover{
     color:var(--blue);
-    text-decoration: underline var(--blue);
+    text-decoration: none;
 }
 /**/
 .footer_soc{
@@ -371,25 +370,7 @@ footer{
     color: var(--white);
 }
 
-/**/
-#phone_white::before{
-    content: "";
-    display: block;
-    background: url(../media/icon_phone_white.svg);
-    background-repeat: no-repeat;
-    width: 16px;
-    height: 16px;
-    padding-right: 5px;
-    float: left;
-}
-
-#phone_black::before{
-    content: "";
-    display: block;
-    background: url(../media/icon_phone_black.svg);
-    background-repeat: no-repeat;
-    width: 16px;
-    height: 16px;
-    padding-right: 5px;
-    float: left;
+.personal_wrap{
+    display: flex;
+    justify-content: space-between;
 }
