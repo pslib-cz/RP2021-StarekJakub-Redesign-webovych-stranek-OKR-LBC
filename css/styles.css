@@ -11,16 +11,16 @@
 
 /*navigace a header*/
 header{
-    background-color: var(--nav-bg); /*nastavení barvy pozadí*/
-    display: flex; /*nastavení typu zarovnání*/
-    flex-direction: row; /*nastavení směru zarovnání*/
-    justify-content: space-between; /*nastavení rozmístění prvků*/
-    width: 100vw; /*nastavení šířky elementu*/
-    margin: auto; /*nastavení automatiského marginu*/
-    position: fixed; /*zafixování pozice na stránce*/
-    top: 0; /*určení pozice fixování na stránce*/
-    z-index: 1; /*blok se bude zobrazovat nad ostatnímy*/
-    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%); /*nastavení stínu pro oddělení od zbytku obsahu*/
+    background-color: var(--nav-bg); 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100vw; 
+    margin: auto; 
+    position: fixed; 
+    top: 0; 
+    z-index: 1; 
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%); 
 }
 /*logo rozhodčí*/
 .logo_rlh{
@@ -225,13 +225,13 @@ main h1{
 }
 
 .profil_card{
-    width: 150px; /*nastavení šířky bloku pro obrázek*/
-    height: 150px; /*nastavení výšky bloku pro obrázek*/
-    overflow: hidden; /*obrázek nebude vytékat*/
-    border-radius: 50%; /*vytvoření kruhu*/
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%; 
     margin: 1rem auto; 
-    border: 3px solid var(--shadow); /*tloušťka, typ a barva obrysu kruhu*/
-    flex-shrink: 0; /*zabránění deformace při resizingu*/
+    border: 3px solid var(--shadow); 
+    flex-shrink: 0; 
 }
 
 .profil_card img{
